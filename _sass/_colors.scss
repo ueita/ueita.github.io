@@ -1,0 +1,23 @@
+// greyscale
+$black:         #000000; // (.00, .00, *)
+$near-black:    #161616; // (.20, .00, *)
+$dark-grey:     #484848; // (.40, .00, *)
+$light-grey:    #bebebe; // (.80, .00, *)
+$near-white:    #eeeeee; // (.95, .00, *)
+$white:         #ffffff; // (1.0, .00, *)
+
+// accent
+$accent1:       #cb3dfe; // (.65, .55, 315)
+$accent1-dark:  #691786; // (.40, .35, 315)
+$accent1-light: #ebd5f5; // (.90, .10, 315)
+
+// semantic
+$good:          #29f478; // (.85, .45, 150)
+$good-dark:     #115629; // (.40, .20, 150)
+$good-light:    #ccfdd4; // (.95, .15, 150)
+$neutral:       #f4c947; // (.85, .30, 90)
+$neutral-dark:  #57450c; // (.40, .15, 90)
+$neutral-light: #fbeec9; // (.95, .10, 90)
+$bad:           #fa402d; // (.65, .45, 30)
+$bad-dark:      #861309; // (.40, .30, 30)
+$bad-light:     #fed2cb; // (.90, .10, 30)
