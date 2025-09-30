@@ -1,0 +1,41 @@
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  background: $light-grey;
+  padding: 1rem 0;
+}
+
+footer {
+  background: $light-grey;
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+}
+
+main {
+  padding: 2rem 0;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -0.5rem;
+}
+.col {
+  flex: 1;
+  padding: 0.5rem;
+}
+.col-6 {
+  flex: 0 0 50%;
+}
