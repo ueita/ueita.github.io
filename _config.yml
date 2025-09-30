@@ -1,4 +1,9 @@
 title: placeholder title
 description: placeholder desc
-
 theme: null
+
+nav:
+  - name: "Page"
+    link: "/page/"
+  #- name: "Home"
+  #  link: "/"
