@@ -1,5 +1,5 @@
 ---
-# This front matter is required for Jekyll to process SCSS
+// This front matter is required for Jekyll to process SCSS
 ---
 
 /* 1. Imports */
@@ -60,17 +60,17 @@ h1, h2, h3, h4, h5, h6 {
     &:hover { background: $good-dark; }
   }
 
-  &.bad {
-    background: $bad;
-    color: white;
-
-    &:hover { background: $bad-dark; }
-  }
-
   &.neutral {
     background: $neutral;
     color: $neutral-dark;
 
     &:hover { background: $neutral-dark; color: white; }
+  }
+
+  &.bad {
+    background: $bad;
+    color: white;
+
+    &:hover { background: $bad-dark; }
   }
 }
