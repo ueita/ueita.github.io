@@ -1,0 +1,53 @@
+$font: "Verdana", sans-serif;
+$font-serif: "Georgia", serif;
+$font-mono: "Inconsolata", monospace;
+
+body {
+    font-family: $font;
+    font-size: 3.5vmin;
+    color: $near-black;
+    text-align: justify;
+
+    line-height: 1.62;
+    text-indent: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: left;
+    margin: 0.5em 0 0.5em;
+}
+
+button {
+    font-weight: bold;
+    text-align: center;
+
+    border: 1px solid $near-black;
+    line-height: 1;
+
+    &:hover  {
+        background: $accent1-light;
+        text-decoration: underline;
+    }
+}
+
+a {
+    color: $accent1;
+    text-decoration: none;
+
+    &:hover {
+        color: $accent1-dark;
+        text-decoration: underline;
+    }
+}
+
+blockquote {
+    border-left: 3px solid $dark-grey;
+    padding: 0 5vmin 0;
+}
+
+code {
+    font-family: $font-mono;
+    background: $light-grey;
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+}
