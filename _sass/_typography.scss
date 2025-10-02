@@ -19,7 +19,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn {
+    font-family: $font;
+    font-size: 3.5vmin;
     font-weight: bold;
+    color: $near-black;
 
     text-align: center;
     border: 1px solid $near-black;
