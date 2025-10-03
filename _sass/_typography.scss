@@ -7,7 +7,7 @@ $font: "Verdana", sans-serif;
 $font-serif: "Georgia", serif;
 $font-mono: "Inconsolata", monospace;
 
-body {
+body * {
     font-family: $font;
     font-size: 3.5vmin;
     background-color: $near-white;
@@ -22,8 +22,6 @@ body {
         padding: 0 0 0;
     }
 }
-
-// body * { }
 
 h1, h2, h3 {
     text-align: center;
