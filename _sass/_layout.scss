@@ -1,3 +1,13 @@
+body {
+  margin: 0 12.5vmin;
+}
+
+@media (orientation: landscape) {
+  body {
+    margin: 0 25vmin;
+  }
+}
+
 .container {
   width: 90%;
   max-width: 1200px;
@@ -23,10 +33,6 @@ nav ul {
   padding: 0;
 }
 
-body {
-  margin: 0 12.5vmin;
-}
-
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -38,10 +44,4 @@ body {
 }
 .col-6 {
   flex: 0 0 50%;
-}
-
-@media (orientation: landscape) {
-  body {
-    margin: 0 25vmin;
-  }
 }
