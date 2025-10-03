@@ -1,6 +1,8 @@
-title: placeholder title
-description: placeholder desc
+title: "placeholder title"
+description: "placeholder desc"
 theme: null
+url: "https://ueita.github.io"
+baseurl: "/"
 
 nav:
   - name: "Page"
