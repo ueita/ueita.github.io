@@ -23,7 +23,7 @@ nav ul {
   padding: 0;
 }
 
-main {
+body {
   margin: 0 12.5vmin;
 }
 
@@ -41,7 +41,7 @@ main {
 }
 
 @media (orientation: landscape) {
-  main {
+  body {
     margin: 0 25vmin;
   }
 }
