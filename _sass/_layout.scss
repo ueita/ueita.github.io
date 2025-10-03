@@ -40,4 +40,8 @@ main {
   flex: 0 0 50%;
 }
 
-//@media (orientation: landscape) { }
+@media (orientation: landscape) {
+  main {
+    margin: 0 25vmin;
+  }
+}
