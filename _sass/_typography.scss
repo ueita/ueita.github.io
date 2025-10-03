@@ -73,6 +73,11 @@ blockquote {
     padding: 0.6em 4em 0;
 }
 
+pre {
+    white-space: pre-wrap;
+    tab-size: 4;
+}
+
 code {
     font-family: $font-mono;
     background: $light-grey;
