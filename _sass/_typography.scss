@@ -15,21 +15,26 @@ body {
 
     text-align: justify;
     text-indent: 0;
-    line-height: 1.62;
-    padding: 2.2vmin 0 0;
+    line-height: 1.6;
+    padding: 2.1vmin 0 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3 {
+    text-align: center;
+    margin: 0 0 0;
+}
+
+h4, h5, h6 {
     text-align: left;
-    margin: 0.5em 0 0.5em;
+    margin: 0 0 0;
 }
 
-h1 { font-size: 9vmin; }
-h2 { font-size: 7vmin; }
-h3 { font-size: 5.5vmin; }
-h4 { font-size: 5vmin; }
-h5 { font-size: 4.5vmin; }
-h6 { font-size: 4vmin; }
+h1 { font-size: 9vmin;      padding: 5.4vmin 0 0; }
+h2 { font-size: 7vmin;      padding: 4.2vmin 0 0; }
+h3 { font-size: 5.5vmin;    padding: 3.3vmin 0 0; }
+h4 { font-size: 5vmin;      padding: 3vmin 0 0; }
+h5 { font-size: 4.5vmin;    padding: 2.7vmin 0 0; }
+h6 { font-size: 4vmin;      padding: 2.4vmin 0 0; }
 
 .btn {
     font-family: $font;
