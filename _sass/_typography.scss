@@ -17,10 +17,6 @@ body * {
     line-height: 1.6;
     padding: 0;
     margin: 0;
-
-    &.no-padding {
-        padding: 0 0 0;
-    }
 }
 
 h1, h2, h3 {
@@ -64,6 +60,10 @@ a {
         color: $accent1-dark;
         text-decoration: underline;
     }
+}
+
+ul {
+    padding: 0 4em 0;
 }
 
 blockquote {
